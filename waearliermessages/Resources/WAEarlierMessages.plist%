@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>
+Normally , when you click "Load Earlier Messages" one page is loaded . Well, adjusting this slider you can decide how many pages to be loaded :) </string>
+			<key>label</key>
+			<string>Whatsapp :</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.sammour.ISLoader.preferences-changed</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.sammour.ISLoader</string>
+			<key>key</key>
+			<string>tapConfirmation</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>50</real>
+			<key>defaults</key>
+			<string>com.sammour.ISLoader</string>
+			<key>key</key>
+			<string>Slider</string>
+			<key>max</key>
+			<string>100</string>
+			<key>min</key>
+			<string>1</string>
+			<key>showValue</key>
+			<string>True</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Messages Stock App :</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.sammour.ISLoader.preferences-changed</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.sammour.ISLoader</string>
+			<key>key</key>
+			<string>tapConfirmation1</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>1</real>
+			<key>defaults</key>
+			<string>com.sammour.ISLoader</string>
+			<key>key</key>
+			<string>Slider1</string>
+			<key>max</key>
+			<string>100</string>
+			<key>min</key>
+			<string>1</string>
+			<key>showValue</key>
+			<string>True</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>WA Earlier Messages © 2015 Ibrahim Sammour</string>
+			<key>label</key>
+			<string>Developer</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>twitter</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>default</key>
+			<false/>
+			<key>icon</key>
+			<string>twitter.png</string>
+			<key>label</key>
+			<string>Follow me on twitter</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>donate</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>default</key>
+			<false/>
+			<key>icon</key>
+			<string>donate.png</string>
+			<key>label</key>
+			<string>Buy me a coffee</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>WA Earlier Messages</string>
+</dict>
+</plist>

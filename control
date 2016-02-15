@@ -1,0 +1,9 @@
+Package: com.sammour.ISLoader
+Name: WA Earlier Messages
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Load All Earlier Messages at once !!
+Maintainer: Ibrahim Sammour
+Author: Ibrahim Sammour
+Section: Tweaks
+Version: 2.1
