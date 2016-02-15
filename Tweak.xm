@@ -1,5 +1,4 @@
 
-  #include "UIAlert+Blocks.h"
 	#import <Social/Social.h>
 	#import <UIKit/UIKit.h>
 	@interface WAChatButton:UIButton
